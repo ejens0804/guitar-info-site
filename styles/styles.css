@@ -1,17 +1,12 @@
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
 
-.montserrat-<uniquifier> {
+.montserrat-regular {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.raleway-<uniquifier> {
+.raleway-regular {
     font-family: "Raleway", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
@@ -65,11 +60,13 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #ffc362;
+    font-family: "Montserrat", sans-serif;
 }
 
 #header-title {
     text-align: center;
     color: #391a29;
+    font-family: "Raleway", sans-serif;
 }
 
 nav a:hover {
@@ -85,6 +82,7 @@ a {
 .content-title {
     text-align: center;
     color: #d42a00;
+    font-family: "Raleway", Helvetica, sans-serif;
 }
 
 img {
@@ -121,6 +119,7 @@ h4 {
     text-align: center;
     border: 5px solid #ffc362;
     color: #f2542d;
+    font-family: "Abel", Helvetica, sans-serif;
 }
 
 .img1 {
@@ -150,6 +149,7 @@ h4 {
     text-align: center;
     border: 5px solid #ffc362;
     color: #f2542d;
+    font-family: "Abel", Helvetica, sans-serif;
 }
 
 .content3 {
@@ -163,6 +163,7 @@ h4 {
     text-align: center;
     border: 5px solid #ffc362;
     color: #f2542d;
+    font-family: "Abel", Helvetica, sans-serif;
 }
 
 .img3 {
@@ -190,4 +191,5 @@ footer {
     align-items: center;
     padding: 20px;
     background-color: #ffc362;
+    font-family: "Montserrat", sans-serif;
 }
