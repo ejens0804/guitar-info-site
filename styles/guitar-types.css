@@ -1,4 +1,3 @@
-
 .montserrat-regular {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -79,10 +78,20 @@ a {
     color: black;
 }
 
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
 .content-title {
     text-align: center;
     color: #ff714d;
     font-family: "Raleway", Helvetica, sans-serif;
+}
+
+.paragraph-content-title {
+    color: #ff714d;
+    text-align: center;
 }
 
 img {
@@ -103,7 +112,6 @@ img {
     font-size: 30px;
     text-align: center;
 }
-
 
 .content1 {
     grid-column: 1 / 2;
