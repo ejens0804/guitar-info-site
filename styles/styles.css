@@ -69,13 +69,20 @@ header {
     font-family: "Raleway", sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 nav a:hover {
     background-color: #ff714d;
     color: black;
+    border-radius: 20px;
 }
 
 nav a{
     margin-right: 15px;
+    padding: 35px;
 }
 
 a {
